@@ -11,3 +11,13 @@ body {
     background-color: #eae7dc;
 
 }
+
+.epictetus { 
+    width: 100%;
+
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: inherit;
+}
