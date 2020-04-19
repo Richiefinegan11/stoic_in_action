@@ -1,23 +1,121 @@
 body {
-    
-    background-color: #eae7dc;
-    font-family: 'Baloo Paaji 2', cursive, sans-serif;
+
+  background-color: #eae7dc;
+  font-family: "Baloo Paaji 2", cursive, sans-serif;
 
 }
 
-/*-------Index */
+
+/*--------------Index */
 
 .navbar {
-    background-color: #eae7dc;
+  background-color: #eae7dc;
+}
+
+.epictetus {
+  width: 100%;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*--------------Sign Up */
+
+body, html {
+
+    height: 100%;
+}
+
+.signup-page {
+
+  height: 100%;
+
+  background: url(/assets/images/greek.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  
+}
+
+.opaque-overlay {
+  ;
+  
+}
+
+.signup-page .navbar {
+
+  background-color: transparent;
 
 }
 
-.epictetus { 
-    width: 100%;
+.signup-page .navbar a {
+
+  color: #fafafa !important;
 
 }
 
-.footer-container a{
-    text-decoration: none;
-    color: inherit;
+.signup-form {
+
+  margin-top: 150px;
+  color: #fafafa;
+  max-width: 400px;
+  position: absolute;
+  left: 15%;
+  padding: 50px;
+  background-color: rgba(60, 60, 60, 0.6)
+
 }
+
+.signup-form h2 {
+
+  color: #fafafa;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-input {
+
+  background-color: transparent ;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0px 20px 0px;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+
+  border-color: #d79922 ;
+
+}
+
+::placeholder {
+
+  color: #fafafa;
+  text-align: center;
+
+}
+
+.subscribe-button {
+
+  margin-top: 20px;
+  border: 2px;
+  padding: 10px 35px 10px 35px;
+  width: 100%;
+  text-align: center;
+  font-size: 100%;
+  background-color: #d79922;
+  display: block;
+
+}
+
+.subscribe-button:hover {
+
+  background-color: #fafafa;
+
+}
+
+
