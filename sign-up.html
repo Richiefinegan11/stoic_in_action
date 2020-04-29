@@ -24,57 +24,64 @@
   </head>
   <body>
     <!--Navbar-->
-    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><h2>Stoics In Action</h2></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home </a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sign-up.html">Sign Up For Daily Email <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="store.html">Store</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!--Navbar-->
 
     <!--SignUp Section-->
-    <div class="signup-page">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><h2>Stoics In Action</h2></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home </a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sign-up.html">Sign Up For Daily Email <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="store.html">Store</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="opaque-overlay"></div>
-      <section class="form-section">
+    
+      
+      <div class="form-section">
         <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
           <h2> Sign Up Here!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi finibus nulla in rhoncus ornare. Praesent rhoncus aliquet tristique. Morbi pharetra.</p>
           <label for="name"></label>
           <input class="text-input" placeholder="Your Name" type="text" name="name" id="name" required>
           <label for="email"></label>
           <input class="text-input" placeholder="Your Email Address" type="text" name="email" id="email" required>
           <input class="subscribe-button" type="submit" value="Subscribe!">
         </form>
-      </section>
-    </div>
+      </div>
 
     <!--SignUp Section-->
-
+      
     <!--Footer-->
-    
+    <footer class="container-fluid footer-container">
+      <div class="container social-media">
+        <div class="row">
+          <div class="col"><a href="https://www.instagram.com/stoics_in_action_/" target="_blank"><i class="fa fa-instagram"></i></a></div>
+          <div class="col"><a href="https://twitter.com/StoicsAction" target="_blank"><i class="fa fa-twitter"></i></a></div>
+          <div class="col"><a href="" target="_blank"><i class="fa fa-facebook-square"></i></a></div>
+          <div class="col"><a href="" target="_blank"><i class="fa fa-youtube-play"></i></a></div>
+        </div>
+    </footer>
     <!--Footer-->
 
     <script

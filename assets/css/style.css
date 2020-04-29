@@ -2,11 +2,29 @@ body {
 
   background-color: #eae7dc;
   font-family: "Baloo Paaji 2", cursive, sans-serif;
+  color: #000000;
+}
+
+.footer-container {
+
+  text-align: center;
+  padding: 25px;
+}
+
+.social-media i {
+
+  font-size: 170%;
+  margin: 1%;
+  padding: 5%;
 
 }
 
 
 /*--------------Index */
+
+.introduction h2 {
+  text-align: center;
+}
 
 .navbar {
   background-color: #eae7dc;
@@ -23,99 +41,78 @@ body {
 
 /*--------------Sign Up */
 
-body, html {
+.form-section {
 
-    height: 100%;
-}
-
-.signup-page {
-
-  height: 100%;
-
-  background: url(/assets/images/greek.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  clear: left;
+  background: url(/assets/images/greek.jpg);
   background-size: cover;
-  -o-background-size: cover;
-  
-}
-
-.opaque-overlay {
-  ;
-  
-}
-
-.signup-page .navbar {
-
-  background-color: transparent;
-
-}
-
-.signup-page .navbar a {
-
-  color: #fafafa !important;
-
+  background-position: center;
+  height: 900px;
 }
 
 .signup-form {
-
-  margin-top: 150px;
-  color: #fafafa;
-  max-width: 400px;
-  position: absolute;
-  left: 15%;
-  padding: 50px;
-  background-color: rgba(60, 60, 60, 0.6)
+margin-top: 150px;
+color: #fafafa;
+background-color: rgba(26, 23, 23, 0.6);
+max-width: 500px;
+position: absolute;
+left: 20%;
+padding: 30px;
 
 }
 
 .signup-form h2 {
-
-  color: #fafafa;
-  margin-bottom: 20px;
-  text-align: center;
+color: #fafafa;
+margin-bottom: 20px;
 }
 
 .text-input {
-
-  background-color: transparent ;
-  width: 100%;
-  height: 30px;
-  margin: 5px 0px 20px 0px;
-  border: 1px solid #fafafa;
-  border-radius: 2px;
+background-color: transparent;
+color: #fafafa;
+width: 100%;
+height: 25px;
+margin: 5px 0px 20px 0px;
+border: 1px solid #fafafa;
+border-radius: 2px;
 }
 
 .text-input:hover {
-
-  border-color: #d79922 ;
-
-}
-
-::placeholder {
-
-  color: #fafafa;
-  text-align: center;
+border-color:	#d79922;
 
 }
 
 .subscribe-button {
-
-  margin-top: 20px;
-  border: 2px;
-  padding: 10px 35px 10px 35px;
-  width: 100%;
-  text-align: center;
-  font-size: 100%;
-  background-color: #d79922;
-  display: block;
-
+margin-top: 20px;
+border-radius: 2px;
+padding: 10px 30px 10px 3px;
+text-align: center;
+font-size: 100%;
+background-color: #d79922;
+color: #fafafa;
+display: block;
+width: 100%;
 }
 
 .subscribe-button:hover {
+background-color: #fafafa;
+color: 	#d79922;
+}
 
-  background-color: #fafafa;
+::placeholder {
+
+  color: #fafafa
 
 }
 
+/*--------------Store */
 
+.store-container {
+  text-align: center;
+  display: block;
+}
+
+.store-container h1 {
+
+  padding: 25px;
+
+}
