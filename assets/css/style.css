@@ -30,8 +30,43 @@ body {
   background-color: #eae7dc;
 }
 
-.epictetus {
+.stoa {
   width: 100%;
+  height: 60vh;
+}
+
+.history {
+
+  text-align: center;
+  text-justify: inter-cluster;
+
+}
+
+.history h5 {
+
+  padding-top: 15px;
+
+}
+
+.thumbnail {
+
+  height: 150px;
+  width: 33%;
+  border-radius: 50%;
+  margin: 10px 15px 10px 15px;
+
+
+}
+
+.seneca h5 {
+
+  margin-top: 20px;
+}
+
+.epictetus h5 {
+
+  margin-top: 58px;
+
 }
 
 .footer-container a {
