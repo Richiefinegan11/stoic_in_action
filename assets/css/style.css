@@ -44,7 +44,7 @@ body {
 .form-section {
 
   clear: left;
-  background: url(/assets/images/greek.jpg);
+  background: url(../images/greek.jpg);
   background-size: cover;
   background-position: center;
   height: 900px;
