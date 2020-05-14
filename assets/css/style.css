@@ -10,7 +10,6 @@ body {
 
 }
 
-
 .footer-container {
 
   text-align: center;
@@ -44,8 +43,14 @@ body {
 
 .stoa {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
 
+}
+
+@media only screen and (max-width: 600px) {
+  .stoa {
+    height: 40vh;
+  }
 }
 
 .introduction h1 {
@@ -59,7 +64,6 @@ body {
 
   padding: 20px 20px 20px 20px;
   text-align: center;
-  text-justify: inter-ideograph;
   font-size: large;
 
 }
@@ -70,19 +74,23 @@ body {
   color: inherit;
   color: #d79922;
   
+}
+
+.history h3 {
+
+  padding: 15px 0px 15px 0px;
 
 }
 
 .history, p  {
 
   text-align: center;
-  text-justify: inter-ideograph;
 
 }
 
 .history h4 {
   padding-top: 15px;
-  text-decoration: underline;
+  
 
 }
 
@@ -97,12 +105,18 @@ body {
 
   height: 140px;
   margin: 25px 15px 25px 15px;
-  
+  width: 100px;
 }
 
 .footer-container a {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .stoa {
+    
+  }
 }
 
 /*--------------Sign Up */
@@ -227,4 +241,3 @@ color: 	#d79922;
   height: 230px;
 
 }
-
