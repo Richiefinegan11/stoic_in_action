@@ -31,7 +31,6 @@ body {
 
 }
 
-
 /*--------------Index */
 
 .hero-image {
@@ -49,7 +48,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .stoa {
-    height: 40vh;
+    height: 45vh;
   }
 }
 
@@ -82,9 +81,10 @@ body {
 
 }
 
-.history, p  {
+.history {
 
   text-align: center;
+  text-justify: auto;
 
 }
 
@@ -128,7 +128,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 900px;
-
+  
 }
 
 .signup-form {
