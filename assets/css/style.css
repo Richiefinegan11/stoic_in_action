@@ -3,7 +3,7 @@ body {
   background-color: #eae7dc;
   font-family: "Baloo Paaji 2", cursive, sans-serif;
   color: #000000;
-}
+} 
 
 .navbar {
   background-color: #eae7dc;
@@ -33,39 +33,67 @@ body {
 
 /*--------------Index */
 
+.alert {
+  font-size: 23px;
+  color: #fff;
+  background-color: rgba(20, 18, 18, 0.521);
+  text-align: center;
+}
+
+.alert a {
+
+  color: #d79922 !important;
+  padding: 25px 0px;
+  font-weight: 800px;
+
+}
+
 .hero-image {
 
   margin-bottom: 20px;
-  margin-top: 10px;
+  margin-top: 10px
   
 }
 
 .stoa {
+
   width: 100%;
-  height: 50vh;
+  height: 75vh;
 
 }
 
 @media only screen and (max-width: 600px) {
   .stoa {
-    height: 45vh;
+    height: 50vh;
   }
 }
+
+@media only screen and (min-width: 1590px) {
+  .stoa {
+    height: 55vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .stoa {
+    height: 55vh;
+  }
+ }
 
 .introduction h1 {
 
   text-align: center;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
 
 }
 
 .introduction p {
 
-  padding: 20px 20px 20px 20px;
-  text-align: center;
+  text-align: justify;
   font-size: large;
 
 }
+
 
 .introduction a {
 
@@ -77,20 +105,23 @@ body {
 
 .history h3 {
 
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px;
 
 }
 
 .history {
 
   text-align: center;
-  text-justify: auto;
 
+}
+
+.history p {
+
+  text-align: justify;
 }
 
 .history h4 {
   padding-top: 15px;
-  
 
 }
 
@@ -113,13 +144,14 @@ body {
   color: inherit;
 }
 
-@media only screen and (max-width: 600px) {
-  .stoa {
-    
-  }
-}
-
 /*--------------Sign Up */
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+
+  .form-section {
+    height: 1150px !important;
+  }
+ }
 
 .form-section {
 
@@ -241,3 +273,4 @@ color: 	#d79922;
   height: 230px;
 
 }
+
