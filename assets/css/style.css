@@ -44,7 +44,7 @@ body {
 
   color: #d79922 !important;
   padding: 25px 0px;
-  font-weight: 800px;
+  font-weight: 600;
 
 }
 
@@ -75,11 +75,11 @@ body {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .stoa {
     height: 55vh;
   }
- }
+}
 
 .introduction h1 {
 
@@ -92,6 +92,7 @@ body {
 
   text-align: justify;
   font-size: large;
+  margin-bottom: 25px;
 
 }
 
@@ -147,13 +148,6 @@ body {
 
 /*--------------Sign Up */
 
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
-
-  .form-section {
-    height: 1150px !important;
-  }
- }
-
 .form-section {
 
   clear: left;
@@ -184,6 +178,14 @@ body {
     right: 1%;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .form-section {
+    height: 1150px !important;
+  }
+}
+
 
 @media only screen and (min-width: 1400px) {
   .signup-form {
