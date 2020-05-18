@@ -158,6 +158,14 @@ body {
   
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .form-section {
+    height: 1150px !important;
+  }
+}
+
+
 .signup-form {
 
   margin-top: 150px;
@@ -176,13 +184,6 @@ body {
     left: 1%;
     padding: 30px;
     right: 1%;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-  .form-section {
-    height: 1150px !important;
   }
 }
 
